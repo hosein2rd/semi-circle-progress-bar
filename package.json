@@ -4,7 +4,9 @@
   "description": "Semi circular progress bar",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/hosein2rd/semi-circle-progress-bar/issues"
   },
-  "homepage": "https://github.com/hosein2rd/semi-circle-progress-bar#readme"
+  "homepage": "https://github.com/hosein2rd/semi-circle-progress-bar#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
