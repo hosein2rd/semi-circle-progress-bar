@@ -9,10 +9,10 @@ export default defineConfig({
       entry: path.resolve(__dirname, "src/index.ts"),
       name: "MyReactLib",
       formats: ["es", "cjs"],
-      fileName: (format) => `index.${format}.js`
+      fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],
-    }
-  }
+    },
+  },
 });
