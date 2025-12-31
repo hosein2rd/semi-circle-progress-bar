@@ -1,4 +1,4 @@
-# Semi Circle Progress Bar
+# Semi Circle Progress Bar React
 
 A lightweight and customizable **semi-circular progress bar React component** built with **React + TypeScript**.  
 Ideal for dashboards, analytics, and any UI where you need to visualize percentage-based progress.
@@ -24,13 +24,13 @@ Ideal for dashboards, analytics, and any UI where you need to visualize percenta
 Using npm:
 
 ```bash
-npm install semi-circle-progress-bar
+npm install semi-circle-progress-bar-react
 ```
 
 Using yarn:
 
 ```bash
-yarn add semi-circle-progress-bar
+yarn add semi-circle-progress-bar-react
 ```
 
 ---
